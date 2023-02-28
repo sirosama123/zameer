@@ -1,0 +1,1252 @@
+[
+    {
+        "id": 64,
+        "name": "Add Ons",
+        "slug": "add-ons",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 2,
+        "count": 3,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v17.8 (Yoast SEO v17.8) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Add Ons Archives &ndash; Zameer Ansari BBQ &amp; Grill</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://zameeransari.com.pk/product-category/add-ons/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Add Ons Archives\" />\n<meta property=\"og:url\" content=\"https://zameeransari.com.pk/product-category/add-ons/\" />\n<meta property=\"og:site_name\" content=\"Zameer Ansari BBQ &amp; Grill\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://zameeransari.com.pk/#organization\",\"name\":\"Zameer Ansari BBQ & Grill\",\"url\":\"https://zameeransari.com.pk/\",\"sameAs\":[],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://zameeransari.com.pk/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"contentUrl\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"width\":528,\"height\":437,\"caption\":\"Zameer Ansari BBQ & Grill\"},\"image\":{\"@id\":\"https://zameeransari.com.pk/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https://zameeransari.com.pk/#website\",\"url\":\"https://zameeransari.com.pk/\",\"name\":\"Zameer Ansari BBQ &amp; Grill\",\"description\":\"The Finest BBQ Restaurant Since 1984\",\"publisher\":{\"@id\":\"https://zameeransari.com.pk/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://zameeransari.com.pk/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"CollectionPage\",\"@id\":\"https://zameeransari.com.pk/product-category/add-ons/#webpage\",\"url\":\"https://zameeransari.com.pk/product-category/add-ons/\",\"name\":\"Add Ons Archives &ndash; Zameer Ansari BBQ &amp; Grill\",\"isPartOf\":{\"@id\":\"https://zameeransari.com.pk/#website\"},\"breadcrumb\":{\"@id\":\"https://zameeransari.com.pk/product-category/add-ons/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://zameeransari.com.pk/product-category/add-ons/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://zameeransari.com.pk/product-category/add-ons/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://zameeransari.com.pk/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Add Ons\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+        "yoast_head_json": {
+            "title": "Add Ons Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://zameeransari.com.pk/product-category/add-ons/",
+            "og_locale": "en_US",
+            "og_type": "article",
+            "og_title": "Add Ons Archives",
+            "og_url": "https://zameeransari.com.pk/product-category/add-ons/",
+            "og_site_name": "Zameer Ansari BBQ &amp; Grill",
+            "twitter_card": "summary_large_image",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "Organization",
+                        "@id": "https://zameeransari.com.pk/#organization",
+                        "name": "Zameer Ansari BBQ & Grill",
+                        "url": "https://zameeransari.com.pk/",
+                        "sameAs": [],
+                        "logo": {
+                            "@type": "ImageObject",
+                            "@id": "https://zameeransari.com.pk/#logo",
+                            "inLanguage": "en-US",
+                            "url": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "contentUrl": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "width": 528,
+                            "height": 437,
+                            "caption": "Zameer Ansari BBQ & Grill"
+                        },
+                        "image": {
+                            "@id": "https://zameeransari.com.pk/#logo"
+                        }
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://zameeransari.com.pk/#website",
+                        "url": "https://zameeransari.com.pk/",
+                        "name": "Zameer Ansari BBQ &amp; Grill",
+                        "description": "The Finest BBQ Restaurant Since 1984",
+                        "publisher": {
+                            "@id": "https://zameeransari.com.pk/#organization"
+                        },
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://zameeransari.com.pk/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "en-US"
+                    },
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://zameeransari.com.pk/product-category/add-ons/#webpage",
+                        "url": "https://zameeransari.com.pk/product-category/add-ons/",
+                        "name": "Add Ons Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+                        "isPartOf": {
+                            "@id": "https://zameeransari.com.pk/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://zameeransari.com.pk/product-category/add-ons/#breadcrumb"
+                        },
+                        "inLanguage": "en-US",
+                        "potentialAction": [
+                            {
+                                "@type": "ReadAction",
+                                "target": [
+                                    "https://zameeransari.com.pk/product-category/add-ons/"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://zameeransari.com.pk/product-category/add-ons/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://zameeransari.com.pk/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Add Ons"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories/64"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 59,
+        "name": "Beef",
+        "slug": "beef",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 8,
+        "count": 4,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v17.8 (Yoast SEO v17.8) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Beef Archives &ndash; Zameer Ansari BBQ &amp; Grill</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://zameeransari.com.pk/product-category/beef/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Beef Archives\" />\n<meta property=\"og:url\" content=\"https://zameeransari.com.pk/product-category/beef/\" />\n<meta property=\"og:site_name\" content=\"Zameer Ansari BBQ &amp; Grill\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://zameeransari.com.pk/#organization\",\"name\":\"Zameer Ansari BBQ & Grill\",\"url\":\"https://zameeransari.com.pk/\",\"sameAs\":[],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://zameeransari.com.pk/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"contentUrl\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"width\":528,\"height\":437,\"caption\":\"Zameer Ansari BBQ & Grill\"},\"image\":{\"@id\":\"https://zameeransari.com.pk/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https://zameeransari.com.pk/#website\",\"url\":\"https://zameeransari.com.pk/\",\"name\":\"Zameer Ansari BBQ &amp; Grill\",\"description\":\"The Finest BBQ Restaurant Since 1984\",\"publisher\":{\"@id\":\"https://zameeransari.com.pk/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://zameeransari.com.pk/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"CollectionPage\",\"@id\":\"https://zameeransari.com.pk/product-category/beef/#webpage\",\"url\":\"https://zameeransari.com.pk/product-category/beef/\",\"name\":\"Beef Archives &ndash; Zameer Ansari BBQ &amp; Grill\",\"isPartOf\":{\"@id\":\"https://zameeransari.com.pk/#website\"},\"breadcrumb\":{\"@id\":\"https://zameeransari.com.pk/product-category/beef/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://zameeransari.com.pk/product-category/beef/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://zameeransari.com.pk/product-category/beef/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://zameeransari.com.pk/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Beef\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+        "yoast_head_json": {
+            "title": "Beef Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://zameeransari.com.pk/product-category/beef/",
+            "og_locale": "en_US",
+            "og_type": "article",
+            "og_title": "Beef Archives",
+            "og_url": "https://zameeransari.com.pk/product-category/beef/",
+            "og_site_name": "Zameer Ansari BBQ &amp; Grill",
+            "twitter_card": "summary_large_image",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "Organization",
+                        "@id": "https://zameeransari.com.pk/#organization",
+                        "name": "Zameer Ansari BBQ & Grill",
+                        "url": "https://zameeransari.com.pk/",
+                        "sameAs": [],
+                        "logo": {
+                            "@type": "ImageObject",
+                            "@id": "https://zameeransari.com.pk/#logo",
+                            "inLanguage": "en-US",
+                            "url": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "contentUrl": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "width": 528,
+                            "height": 437,
+                            "caption": "Zameer Ansari BBQ & Grill"
+                        },
+                        "image": {
+                            "@id": "https://zameeransari.com.pk/#logo"
+                        }
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://zameeransari.com.pk/#website",
+                        "url": "https://zameeransari.com.pk/",
+                        "name": "Zameer Ansari BBQ &amp; Grill",
+                        "description": "The Finest BBQ Restaurant Since 1984",
+                        "publisher": {
+                            "@id": "https://zameeransari.com.pk/#organization"
+                        },
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://zameeransari.com.pk/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "en-US"
+                    },
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://zameeransari.com.pk/product-category/beef/#webpage",
+                        "url": "https://zameeransari.com.pk/product-category/beef/",
+                        "name": "Beef Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+                        "isPartOf": {
+                            "@id": "https://zameeransari.com.pk/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://zameeransari.com.pk/product-category/beef/#breadcrumb"
+                        },
+                        "inLanguage": "en-US",
+                        "potentialAction": [
+                            {
+                                "@type": "ReadAction",
+                                "target": [
+                                    "https://zameeransari.com.pk/product-category/beef/"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://zameeransari.com.pk/product-category/beef/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://zameeransari.com.pk/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Beef"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories/59"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 63,
+        "name": "Beverages",
+        "slug": "beverages",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 11,
+        "count": 2,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v17.8 (Yoast SEO v17.8) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Beverages Archives &ndash; Zameer Ansari BBQ &amp; Grill</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://zameeransari.com.pk/product-category/beverages/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Beverages Archives\" />\n<meta property=\"og:url\" content=\"https://zameeransari.com.pk/product-category/beverages/\" />\n<meta property=\"og:site_name\" content=\"Zameer Ansari BBQ &amp; Grill\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://zameeransari.com.pk/#organization\",\"name\":\"Zameer Ansari BBQ & Grill\",\"url\":\"https://zameeransari.com.pk/\",\"sameAs\":[],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://zameeransari.com.pk/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"contentUrl\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"width\":528,\"height\":437,\"caption\":\"Zameer Ansari BBQ & Grill\"},\"image\":{\"@id\":\"https://zameeransari.com.pk/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https://zameeransari.com.pk/#website\",\"url\":\"https://zameeransari.com.pk/\",\"name\":\"Zameer Ansari BBQ &amp; Grill\",\"description\":\"The Finest BBQ Restaurant Since 1984\",\"publisher\":{\"@id\":\"https://zameeransari.com.pk/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://zameeransari.com.pk/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"CollectionPage\",\"@id\":\"https://zameeransari.com.pk/product-category/beverages/#webpage\",\"url\":\"https://zameeransari.com.pk/product-category/beverages/\",\"name\":\"Beverages Archives &ndash; Zameer Ansari BBQ &amp; Grill\",\"isPartOf\":{\"@id\":\"https://zameeransari.com.pk/#website\"},\"breadcrumb\":{\"@id\":\"https://zameeransari.com.pk/product-category/beverages/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://zameeransari.com.pk/product-category/beverages/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://zameeransari.com.pk/product-category/beverages/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://zameeransari.com.pk/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Beverages\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+        "yoast_head_json": {
+            "title": "Beverages Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://zameeransari.com.pk/product-category/beverages/",
+            "og_locale": "en_US",
+            "og_type": "article",
+            "og_title": "Beverages Archives",
+            "og_url": "https://zameeransari.com.pk/product-category/beverages/",
+            "og_site_name": "Zameer Ansari BBQ &amp; Grill",
+            "twitter_card": "summary_large_image",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "Organization",
+                        "@id": "https://zameeransari.com.pk/#organization",
+                        "name": "Zameer Ansari BBQ & Grill",
+                        "url": "https://zameeransari.com.pk/",
+                        "sameAs": [],
+                        "logo": {
+                            "@type": "ImageObject",
+                            "@id": "https://zameeransari.com.pk/#logo",
+                            "inLanguage": "en-US",
+                            "url": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "contentUrl": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "width": 528,
+                            "height": 437,
+                            "caption": "Zameer Ansari BBQ & Grill"
+                        },
+                        "image": {
+                            "@id": "https://zameeransari.com.pk/#logo"
+                        }
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://zameeransari.com.pk/#website",
+                        "url": "https://zameeransari.com.pk/",
+                        "name": "Zameer Ansari BBQ &amp; Grill",
+                        "description": "The Finest BBQ Restaurant Since 1984",
+                        "publisher": {
+                            "@id": "https://zameeransari.com.pk/#organization"
+                        },
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://zameeransari.com.pk/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "en-US"
+                    },
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://zameeransari.com.pk/product-category/beverages/#webpage",
+                        "url": "https://zameeransari.com.pk/product-category/beverages/",
+                        "name": "Beverages Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+                        "isPartOf": {
+                            "@id": "https://zameeransari.com.pk/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://zameeransari.com.pk/product-category/beverages/#breadcrumb"
+                        },
+                        "inLanguage": "en-US",
+                        "potentialAction": [
+                            {
+                                "@type": "ReadAction",
+                                "target": [
+                                    "https://zameeransari.com.pk/product-category/beverages/"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://zameeransari.com.pk/product-category/beverages/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://zameeransari.com.pk/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Beverages"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories/63"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 61,
+        "name": "Chicken",
+        "slug": "chicken",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 6,
+        "count": 9,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v17.8 (Yoast SEO v17.8) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Chicken Archives &ndash; Zameer Ansari BBQ &amp; Grill</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://zameeransari.com.pk/product-category/chicken/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Chicken Archives\" />\n<meta property=\"og:url\" content=\"https://zameeransari.com.pk/product-category/chicken/\" />\n<meta property=\"og:site_name\" content=\"Zameer Ansari BBQ &amp; Grill\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://zameeransari.com.pk/#organization\",\"name\":\"Zameer Ansari BBQ & Grill\",\"url\":\"https://zameeransari.com.pk/\",\"sameAs\":[],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://zameeransari.com.pk/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"contentUrl\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"width\":528,\"height\":437,\"caption\":\"Zameer Ansari BBQ & Grill\"},\"image\":{\"@id\":\"https://zameeransari.com.pk/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https://zameeransari.com.pk/#website\",\"url\":\"https://zameeransari.com.pk/\",\"name\":\"Zameer Ansari BBQ &amp; Grill\",\"description\":\"The Finest BBQ Restaurant Since 1984\",\"publisher\":{\"@id\":\"https://zameeransari.com.pk/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://zameeransari.com.pk/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"CollectionPage\",\"@id\":\"https://zameeransari.com.pk/product-category/chicken/#webpage\",\"url\":\"https://zameeransari.com.pk/product-category/chicken/\",\"name\":\"Chicken Archives &ndash; Zameer Ansari BBQ &amp; Grill\",\"isPartOf\":{\"@id\":\"https://zameeransari.com.pk/#website\"},\"breadcrumb\":{\"@id\":\"https://zameeransari.com.pk/product-category/chicken/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://zameeransari.com.pk/product-category/chicken/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://zameeransari.com.pk/product-category/chicken/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://zameeransari.com.pk/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Chicken\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+        "yoast_head_json": {
+            "title": "Chicken Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://zameeransari.com.pk/product-category/chicken/",
+            "og_locale": "en_US",
+            "og_type": "article",
+            "og_title": "Chicken Archives",
+            "og_url": "https://zameeransari.com.pk/product-category/chicken/",
+            "og_site_name": "Zameer Ansari BBQ &amp; Grill",
+            "twitter_card": "summary_large_image",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "Organization",
+                        "@id": "https://zameeransari.com.pk/#organization",
+                        "name": "Zameer Ansari BBQ & Grill",
+                        "url": "https://zameeransari.com.pk/",
+                        "sameAs": [],
+                        "logo": {
+                            "@type": "ImageObject",
+                            "@id": "https://zameeransari.com.pk/#logo",
+                            "inLanguage": "en-US",
+                            "url": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "contentUrl": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "width": 528,
+                            "height": 437,
+                            "caption": "Zameer Ansari BBQ & Grill"
+                        },
+                        "image": {
+                            "@id": "https://zameeransari.com.pk/#logo"
+                        }
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://zameeransari.com.pk/#website",
+                        "url": "https://zameeransari.com.pk/",
+                        "name": "Zameer Ansari BBQ &amp; Grill",
+                        "description": "The Finest BBQ Restaurant Since 1984",
+                        "publisher": {
+                            "@id": "https://zameeransari.com.pk/#organization"
+                        },
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://zameeransari.com.pk/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "en-US"
+                    },
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://zameeransari.com.pk/product-category/chicken/#webpage",
+                        "url": "https://zameeransari.com.pk/product-category/chicken/",
+                        "name": "Chicken Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+                        "isPartOf": {
+                            "@id": "https://zameeransari.com.pk/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://zameeransari.com.pk/product-category/chicken/#breadcrumb"
+                        },
+                        "inLanguage": "en-US",
+                        "potentialAction": [
+                            {
+                                "@type": "ReadAction",
+                                "target": [
+                                    "https://zameeransari.com.pk/product-category/chicken/"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://zameeransari.com.pk/product-category/chicken/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://zameeransari.com.pk/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Chicken"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories/61"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 56,
+        "name": "Chicken Kolya karahi",
+        "slug": "chicken-kolya-karahi",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 3,
+        "count": 6,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v17.8 (Yoast SEO v17.8) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Chicken Kolya karahi Archives &ndash; Zameer Ansari BBQ &amp; Grill</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://zameeransari.com.pk/product-category/chicken-kolya-karahi/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Chicken Kolya karahi Archives\" />\n<meta property=\"og:url\" content=\"https://zameeransari.com.pk/product-category/chicken-kolya-karahi/\" />\n<meta property=\"og:site_name\" content=\"Zameer Ansari BBQ &amp; Grill\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://zameeransari.com.pk/#organization\",\"name\":\"Zameer Ansari BBQ & Grill\",\"url\":\"https://zameeransari.com.pk/\",\"sameAs\":[],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://zameeransari.com.pk/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"contentUrl\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"width\":528,\"height\":437,\"caption\":\"Zameer Ansari BBQ & Grill\"},\"image\":{\"@id\":\"https://zameeransari.com.pk/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https://zameeransari.com.pk/#website\",\"url\":\"https://zameeransari.com.pk/\",\"name\":\"Zameer Ansari BBQ &amp; Grill\",\"description\":\"The Finest BBQ Restaurant Since 1984\",\"publisher\":{\"@id\":\"https://zameeransari.com.pk/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://zameeransari.com.pk/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"CollectionPage\",\"@id\":\"https://zameeransari.com.pk/product-category/chicken-kolya-karahi/#webpage\",\"url\":\"https://zameeransari.com.pk/product-category/chicken-kolya-karahi/\",\"name\":\"Chicken Kolya karahi Archives &ndash; Zameer Ansari BBQ &amp; Grill\",\"isPartOf\":{\"@id\":\"https://zameeransari.com.pk/#website\"},\"breadcrumb\":{\"@id\":\"https://zameeransari.com.pk/product-category/chicken-kolya-karahi/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://zameeransari.com.pk/product-category/chicken-kolya-karahi/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://zameeransari.com.pk/product-category/chicken-kolya-karahi/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://zameeransari.com.pk/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Chicken Kolya karahi\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+        "yoast_head_json": {
+            "title": "Chicken Kolya karahi Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://zameeransari.com.pk/product-category/chicken-kolya-karahi/",
+            "og_locale": "en_US",
+            "og_type": "article",
+            "og_title": "Chicken Kolya karahi Archives",
+            "og_url": "https://zameeransari.com.pk/product-category/chicken-kolya-karahi/",
+            "og_site_name": "Zameer Ansari BBQ &amp; Grill",
+            "twitter_card": "summary_large_image",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "Organization",
+                        "@id": "https://zameeransari.com.pk/#organization",
+                        "name": "Zameer Ansari BBQ & Grill",
+                        "url": "https://zameeransari.com.pk/",
+                        "sameAs": [],
+                        "logo": {
+                            "@type": "ImageObject",
+                            "@id": "https://zameeransari.com.pk/#logo",
+                            "inLanguage": "en-US",
+                            "url": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "contentUrl": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "width": 528,
+                            "height": 437,
+                            "caption": "Zameer Ansari BBQ & Grill"
+                        },
+                        "image": {
+                            "@id": "https://zameeransari.com.pk/#logo"
+                        }
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://zameeransari.com.pk/#website",
+                        "url": "https://zameeransari.com.pk/",
+                        "name": "Zameer Ansari BBQ &amp; Grill",
+                        "description": "The Finest BBQ Restaurant Since 1984",
+                        "publisher": {
+                            "@id": "https://zameeransari.com.pk/#organization"
+                        },
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://zameeransari.com.pk/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "en-US"
+                    },
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://zameeransari.com.pk/product-category/chicken-kolya-karahi/#webpage",
+                        "url": "https://zameeransari.com.pk/product-category/chicken-kolya-karahi/",
+                        "name": "Chicken Kolya karahi Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+                        "isPartOf": {
+                            "@id": "https://zameeransari.com.pk/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://zameeransari.com.pk/product-category/chicken-kolya-karahi/#breadcrumb"
+                        },
+                        "inLanguage": "en-US",
+                        "potentialAction": [
+                            {
+                                "@type": "ReadAction",
+                                "target": [
+                                    "https://zameeransari.com.pk/product-category/chicken-kolya-karahi/"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://zameeransari.com.pk/product-category/chicken-kolya-karahi/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://zameeransari.com.pk/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Chicken Kolya karahi"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories/56"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 58,
+        "name": "Chicken Tikka",
+        "slug": "chicken-tikka",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 5,
+        "count": 5,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v17.8 (Yoast SEO v17.8) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Chicken Tikka Archives &ndash; Zameer Ansari BBQ &amp; Grill</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://zameeransari.com.pk/product-category/chicken-tikka/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Chicken Tikka Archives\" />\n<meta property=\"og:url\" content=\"https://zameeransari.com.pk/product-category/chicken-tikka/\" />\n<meta property=\"og:site_name\" content=\"Zameer Ansari BBQ &amp; Grill\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://zameeransari.com.pk/#organization\",\"name\":\"Zameer Ansari BBQ & Grill\",\"url\":\"https://zameeransari.com.pk/\",\"sameAs\":[],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://zameeransari.com.pk/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"contentUrl\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"width\":528,\"height\":437,\"caption\":\"Zameer Ansari BBQ & Grill\"},\"image\":{\"@id\":\"https://zameeransari.com.pk/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https://zameeransari.com.pk/#website\",\"url\":\"https://zameeransari.com.pk/\",\"name\":\"Zameer Ansari BBQ &amp; Grill\",\"description\":\"The Finest BBQ Restaurant Since 1984\",\"publisher\":{\"@id\":\"https://zameeransari.com.pk/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://zameeransari.com.pk/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"CollectionPage\",\"@id\":\"https://zameeransari.com.pk/product-category/chicken-tikka/#webpage\",\"url\":\"https://zameeransari.com.pk/product-category/chicken-tikka/\",\"name\":\"Chicken Tikka Archives &ndash; Zameer Ansari BBQ &amp; Grill\",\"isPartOf\":{\"@id\":\"https://zameeransari.com.pk/#website\"},\"breadcrumb\":{\"@id\":\"https://zameeransari.com.pk/product-category/chicken-tikka/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://zameeransari.com.pk/product-category/chicken-tikka/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://zameeransari.com.pk/product-category/chicken-tikka/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://zameeransari.com.pk/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Chicken Tikka\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+        "yoast_head_json": {
+            "title": "Chicken Tikka Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://zameeransari.com.pk/product-category/chicken-tikka/",
+            "og_locale": "en_US",
+            "og_type": "article",
+            "og_title": "Chicken Tikka Archives",
+            "og_url": "https://zameeransari.com.pk/product-category/chicken-tikka/",
+            "og_site_name": "Zameer Ansari BBQ &amp; Grill",
+            "twitter_card": "summary_large_image",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "Organization",
+                        "@id": "https://zameeransari.com.pk/#organization",
+                        "name": "Zameer Ansari BBQ & Grill",
+                        "url": "https://zameeransari.com.pk/",
+                        "sameAs": [],
+                        "logo": {
+                            "@type": "ImageObject",
+                            "@id": "https://zameeransari.com.pk/#logo",
+                            "inLanguage": "en-US",
+                            "url": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "contentUrl": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "width": 528,
+                            "height": 437,
+                            "caption": "Zameer Ansari BBQ & Grill"
+                        },
+                        "image": {
+                            "@id": "https://zameeransari.com.pk/#logo"
+                        }
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://zameeransari.com.pk/#website",
+                        "url": "https://zameeransari.com.pk/",
+                        "name": "Zameer Ansari BBQ &amp; Grill",
+                        "description": "The Finest BBQ Restaurant Since 1984",
+                        "publisher": {
+                            "@id": "https://zameeransari.com.pk/#organization"
+                        },
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://zameeransari.com.pk/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "en-US"
+                    },
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://zameeransari.com.pk/product-category/chicken-tikka/#webpage",
+                        "url": "https://zameeransari.com.pk/product-category/chicken-tikka/",
+                        "name": "Chicken Tikka Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+                        "isPartOf": {
+                            "@id": "https://zameeransari.com.pk/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://zameeransari.com.pk/product-category/chicken-tikka/#breadcrumb"
+                        },
+                        "inLanguage": "en-US",
+                        "potentialAction": [
+                            {
+                                "@type": "ReadAction",
+                                "target": [
+                                    "https://zameeransari.com.pk/product-category/chicken-tikka/"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://zameeransari.com.pk/product-category/chicken-tikka/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://zameeransari.com.pk/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Chicken Tikka"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories/58"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 60,
+        "name": "Mutton",
+        "slug": "mutton",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 7,
+        "count": 2,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v17.8 (Yoast SEO v17.8) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Mutton Archives &ndash; Zameer Ansari BBQ &amp; Grill</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://zameeransari.com.pk/product-category/mutton/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Mutton Archives\" />\n<meta property=\"og:url\" content=\"https://zameeransari.com.pk/product-category/mutton/\" />\n<meta property=\"og:site_name\" content=\"Zameer Ansari BBQ &amp; Grill\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://zameeransari.com.pk/#organization\",\"name\":\"Zameer Ansari BBQ & Grill\",\"url\":\"https://zameeransari.com.pk/\",\"sameAs\":[],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://zameeransari.com.pk/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"contentUrl\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"width\":528,\"height\":437,\"caption\":\"Zameer Ansari BBQ & Grill\"},\"image\":{\"@id\":\"https://zameeransari.com.pk/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https://zameeransari.com.pk/#website\",\"url\":\"https://zameeransari.com.pk/\",\"name\":\"Zameer Ansari BBQ &amp; Grill\",\"description\":\"The Finest BBQ Restaurant Since 1984\",\"publisher\":{\"@id\":\"https://zameeransari.com.pk/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://zameeransari.com.pk/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"CollectionPage\",\"@id\":\"https://zameeransari.com.pk/product-category/mutton/#webpage\",\"url\":\"https://zameeransari.com.pk/product-category/mutton/\",\"name\":\"Mutton Archives &ndash; Zameer Ansari BBQ &amp; Grill\",\"isPartOf\":{\"@id\":\"https://zameeransari.com.pk/#website\"},\"breadcrumb\":{\"@id\":\"https://zameeransari.com.pk/product-category/mutton/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://zameeransari.com.pk/product-category/mutton/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://zameeransari.com.pk/product-category/mutton/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://zameeransari.com.pk/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Mutton\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+        "yoast_head_json": {
+            "title": "Mutton Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://zameeransari.com.pk/product-category/mutton/",
+            "og_locale": "en_US",
+            "og_type": "article",
+            "og_title": "Mutton Archives",
+            "og_url": "https://zameeransari.com.pk/product-category/mutton/",
+            "og_site_name": "Zameer Ansari BBQ &amp; Grill",
+            "twitter_card": "summary_large_image",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "Organization",
+                        "@id": "https://zameeransari.com.pk/#organization",
+                        "name": "Zameer Ansari BBQ & Grill",
+                        "url": "https://zameeransari.com.pk/",
+                        "sameAs": [],
+                        "logo": {
+                            "@type": "ImageObject",
+                            "@id": "https://zameeransari.com.pk/#logo",
+                            "inLanguage": "en-US",
+                            "url": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "contentUrl": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "width": 528,
+                            "height": 437,
+                            "caption": "Zameer Ansari BBQ & Grill"
+                        },
+                        "image": {
+                            "@id": "https://zameeransari.com.pk/#logo"
+                        }
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://zameeransari.com.pk/#website",
+                        "url": "https://zameeransari.com.pk/",
+                        "name": "Zameer Ansari BBQ &amp; Grill",
+                        "description": "The Finest BBQ Restaurant Since 1984",
+                        "publisher": {
+                            "@id": "https://zameeransari.com.pk/#organization"
+                        },
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://zameeransari.com.pk/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "en-US"
+                    },
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://zameeransari.com.pk/product-category/mutton/#webpage",
+                        "url": "https://zameeransari.com.pk/product-category/mutton/",
+                        "name": "Mutton Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+                        "isPartOf": {
+                            "@id": "https://zameeransari.com.pk/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://zameeransari.com.pk/product-category/mutton/#breadcrumb"
+                        },
+                        "inLanguage": "en-US",
+                        "potentialAction": [
+                            {
+                                "@type": "ReadAction",
+                                "target": [
+                                    "https://zameeransari.com.pk/product-category/mutton/"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://zameeransari.com.pk/product-category/mutton/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://zameeransari.com.pk/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Mutton"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories/60"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 57,
+        "name": "Mutton Kolya Karahi",
+        "slug": "mutton-kolya-karahi",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 4,
+        "count": 6,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v17.8 (Yoast SEO v17.8) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Mutton Kolya Karahi Archives &ndash; Zameer Ansari BBQ &amp; Grill</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://zameeransari.com.pk/product-category/mutton-kolya-karahi/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Mutton Kolya Karahi Archives\" />\n<meta property=\"og:url\" content=\"https://zameeransari.com.pk/product-category/mutton-kolya-karahi/\" />\n<meta property=\"og:site_name\" content=\"Zameer Ansari BBQ &amp; Grill\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://zameeransari.com.pk/#organization\",\"name\":\"Zameer Ansari BBQ & Grill\",\"url\":\"https://zameeransari.com.pk/\",\"sameAs\":[],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://zameeransari.com.pk/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"contentUrl\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"width\":528,\"height\":437,\"caption\":\"Zameer Ansari BBQ & Grill\"},\"image\":{\"@id\":\"https://zameeransari.com.pk/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https://zameeransari.com.pk/#website\",\"url\":\"https://zameeransari.com.pk/\",\"name\":\"Zameer Ansari BBQ &amp; Grill\",\"description\":\"The Finest BBQ Restaurant Since 1984\",\"publisher\":{\"@id\":\"https://zameeransari.com.pk/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://zameeransari.com.pk/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"CollectionPage\",\"@id\":\"https://zameeransari.com.pk/product-category/mutton-kolya-karahi/#webpage\",\"url\":\"https://zameeransari.com.pk/product-category/mutton-kolya-karahi/\",\"name\":\"Mutton Kolya Karahi Archives &ndash; Zameer Ansari BBQ &amp; Grill\",\"isPartOf\":{\"@id\":\"https://zameeransari.com.pk/#website\"},\"breadcrumb\":{\"@id\":\"https://zameeransari.com.pk/product-category/mutton-kolya-karahi/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://zameeransari.com.pk/product-category/mutton-kolya-karahi/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://zameeransari.com.pk/product-category/mutton-kolya-karahi/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://zameeransari.com.pk/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Mutton Kolya Karahi\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+        "yoast_head_json": {
+            "title": "Mutton Kolya Karahi Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://zameeransari.com.pk/product-category/mutton-kolya-karahi/",
+            "og_locale": "en_US",
+            "og_type": "article",
+            "og_title": "Mutton Kolya Karahi Archives",
+            "og_url": "https://zameeransari.com.pk/product-category/mutton-kolya-karahi/",
+            "og_site_name": "Zameer Ansari BBQ &amp; Grill",
+            "twitter_card": "summary_large_image",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "Organization",
+                        "@id": "https://zameeransari.com.pk/#organization",
+                        "name": "Zameer Ansari BBQ & Grill",
+                        "url": "https://zameeransari.com.pk/",
+                        "sameAs": [],
+                        "logo": {
+                            "@type": "ImageObject",
+                            "@id": "https://zameeransari.com.pk/#logo",
+                            "inLanguage": "en-US",
+                            "url": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "contentUrl": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "width": 528,
+                            "height": 437,
+                            "caption": "Zameer Ansari BBQ & Grill"
+                        },
+                        "image": {
+                            "@id": "https://zameeransari.com.pk/#logo"
+                        }
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://zameeransari.com.pk/#website",
+                        "url": "https://zameeransari.com.pk/",
+                        "name": "Zameer Ansari BBQ &amp; Grill",
+                        "description": "The Finest BBQ Restaurant Since 1984",
+                        "publisher": {
+                            "@id": "https://zameeransari.com.pk/#organization"
+                        },
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://zameeransari.com.pk/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "en-US"
+                    },
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://zameeransari.com.pk/product-category/mutton-kolya-karahi/#webpage",
+                        "url": "https://zameeransari.com.pk/product-category/mutton-kolya-karahi/",
+                        "name": "Mutton Kolya Karahi Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+                        "isPartOf": {
+                            "@id": "https://zameeransari.com.pk/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://zameeransari.com.pk/product-category/mutton-kolya-karahi/#breadcrumb"
+                        },
+                        "inLanguage": "en-US",
+                        "potentialAction": [
+                            {
+                                "@type": "ReadAction",
+                                "target": [
+                                    "https://zameeransari.com.pk/product-category/mutton-kolya-karahi/"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://zameeransari.com.pk/product-category/mutton-kolya-karahi/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://zameeransari.com.pk/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Mutton Kolya Karahi"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories/57"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 65,
+        "name": "Roll",
+        "slug": "roll",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 9,
+        "count": 10,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v17.8 (Yoast SEO v17.8) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Roll Archives &ndash; Zameer Ansari BBQ &amp; Grill</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://zameeransari.com.pk/product-category/roll/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Roll Archives\" />\n<meta property=\"og:url\" content=\"https://zameeransari.com.pk/product-category/roll/\" />\n<meta property=\"og:site_name\" content=\"Zameer Ansari BBQ &amp; Grill\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://zameeransari.com.pk/#organization\",\"name\":\"Zameer Ansari BBQ & Grill\",\"url\":\"https://zameeransari.com.pk/\",\"sameAs\":[],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://zameeransari.com.pk/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"contentUrl\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"width\":528,\"height\":437,\"caption\":\"Zameer Ansari BBQ & Grill\"},\"image\":{\"@id\":\"https://zameeransari.com.pk/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https://zameeransari.com.pk/#website\",\"url\":\"https://zameeransari.com.pk/\",\"name\":\"Zameer Ansari BBQ &amp; Grill\",\"description\":\"The Finest BBQ Restaurant Since 1984\",\"publisher\":{\"@id\":\"https://zameeransari.com.pk/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://zameeransari.com.pk/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"CollectionPage\",\"@id\":\"https://zameeransari.com.pk/product-category/roll/#webpage\",\"url\":\"https://zameeransari.com.pk/product-category/roll/\",\"name\":\"Roll Archives &ndash; Zameer Ansari BBQ &amp; Grill\",\"isPartOf\":{\"@id\":\"https://zameeransari.com.pk/#website\"},\"breadcrumb\":{\"@id\":\"https://zameeransari.com.pk/product-category/roll/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://zameeransari.com.pk/product-category/roll/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://zameeransari.com.pk/product-category/roll/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://zameeransari.com.pk/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Roll\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+        "yoast_head_json": {
+            "title": "Roll Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://zameeransari.com.pk/product-category/roll/",
+            "og_locale": "en_US",
+            "og_type": "article",
+            "og_title": "Roll Archives",
+            "og_url": "https://zameeransari.com.pk/product-category/roll/",
+            "og_site_name": "Zameer Ansari BBQ &amp; Grill",
+            "twitter_card": "summary_large_image",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "Organization",
+                        "@id": "https://zameeransari.com.pk/#organization",
+                        "name": "Zameer Ansari BBQ & Grill",
+                        "url": "https://zameeransari.com.pk/",
+                        "sameAs": [],
+                        "logo": {
+                            "@type": "ImageObject",
+                            "@id": "https://zameeransari.com.pk/#logo",
+                            "inLanguage": "en-US",
+                            "url": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "contentUrl": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "width": 528,
+                            "height": 437,
+                            "caption": "Zameer Ansari BBQ & Grill"
+                        },
+                        "image": {
+                            "@id": "https://zameeransari.com.pk/#logo"
+                        }
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://zameeransari.com.pk/#website",
+                        "url": "https://zameeransari.com.pk/",
+                        "name": "Zameer Ansari BBQ &amp; Grill",
+                        "description": "The Finest BBQ Restaurant Since 1984",
+                        "publisher": {
+                            "@id": "https://zameeransari.com.pk/#organization"
+                        },
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://zameeransari.com.pk/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "en-US"
+                    },
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://zameeransari.com.pk/product-category/roll/#webpage",
+                        "url": "https://zameeransari.com.pk/product-category/roll/",
+                        "name": "Roll Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+                        "isPartOf": {
+                            "@id": "https://zameeransari.com.pk/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://zameeransari.com.pk/product-category/roll/#breadcrumb"
+                        },
+                        "inLanguage": "en-US",
+                        "potentialAction": [
+                            {
+                                "@type": "ReadAction",
+                                "target": [
+                                    "https://zameeransari.com.pk/product-category/roll/"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://zameeransari.com.pk/product-category/roll/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://zameeransari.com.pk/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Roll"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories/65"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    },
+    {
+        "id": 74,
+        "name": "Starter",
+        "slug": "starter",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "image": null,
+        "menu_order": 0,
+        "count": 4,
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v17.8 (Yoast SEO v17.8) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Starter Archives &ndash; Zameer Ansari BBQ &amp; Grill</title>\n<!-- Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [SEO - Search Appearance] menu and set up a template. -->\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://zameeransari.com.pk/product-category/starter/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Starter Archives\" />\n<meta property=\"og:url\" content=\"https://zameeransari.com.pk/product-category/starter/\" />\n<meta property=\"og:site_name\" content=\"Zameer Ansari BBQ &amp; Grill\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://zameeransari.com.pk/#organization\",\"name\":\"Zameer Ansari BBQ & Grill\",\"url\":\"https://zameeransari.com.pk/\",\"sameAs\":[],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://zameeransari.com.pk/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"contentUrl\":\"https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg\",\"width\":528,\"height\":437,\"caption\":\"Zameer Ansari BBQ & Grill\"},\"image\":{\"@id\":\"https://zameeransari.com.pk/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https://zameeransari.com.pk/#website\",\"url\":\"https://zameeransari.com.pk/\",\"name\":\"Zameer Ansari BBQ &amp; Grill\",\"description\":\"The Finest BBQ Restaurant Since 1984\",\"publisher\":{\"@id\":\"https://zameeransari.com.pk/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://zameeransari.com.pk/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"CollectionPage\",\"@id\":\"https://zameeransari.com.pk/product-category/starter/#webpage\",\"url\":\"https://zameeransari.com.pk/product-category/starter/\",\"name\":\"Starter Archives &ndash; Zameer Ansari BBQ &amp; Grill\",\"isPartOf\":{\"@id\":\"https://zameeransari.com.pk/#website\"},\"breadcrumb\":{\"@id\":\"https://zameeransari.com.pk/product-category/starter/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://zameeransari.com.pk/product-category/starter/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://zameeransari.com.pk/product-category/starter/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://zameeransari.com.pk/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Starter\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+        "yoast_head_json": {
+            "title": "Starter Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+            "robots": {
+                "index": "index",
+                "follow": "follow",
+                "max-snippet": "max-snippet:-1",
+                "max-image-preview": "max-image-preview:large",
+                "max-video-preview": "max-video-preview:-1"
+            },
+            "canonical": "https://zameeransari.com.pk/product-category/starter/",
+            "og_locale": "en_US",
+            "og_type": "article",
+            "og_title": "Starter Archives",
+            "og_url": "https://zameeransari.com.pk/product-category/starter/",
+            "og_site_name": "Zameer Ansari BBQ &amp; Grill",
+            "twitter_card": "summary_large_image",
+            "schema": {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "Organization",
+                        "@id": "https://zameeransari.com.pk/#organization",
+                        "name": "Zameer Ansari BBQ & Grill",
+                        "url": "https://zameeransari.com.pk/",
+                        "sameAs": [],
+                        "logo": {
+                            "@type": "ImageObject",
+                            "@id": "https://zameeransari.com.pk/#logo",
+                            "inLanguage": "en-US",
+                            "url": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "contentUrl": "https://zameeransari.com.pk/wp-content/uploads/2022/04/Feedback-QR-Code-e1651198243914.jpg",
+                            "width": 528,
+                            "height": 437,
+                            "caption": "Zameer Ansari BBQ & Grill"
+                        },
+                        "image": {
+                            "@id": "https://zameeransari.com.pk/#logo"
+                        }
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://zameeransari.com.pk/#website",
+                        "url": "https://zameeransari.com.pk/",
+                        "name": "Zameer Ansari BBQ &amp; Grill",
+                        "description": "The Finest BBQ Restaurant Since 1984",
+                        "publisher": {
+                            "@id": "https://zameeransari.com.pk/#organization"
+                        },
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://zameeransari.com.pk/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "en-US"
+                    },
+                    {
+                        "@type": "CollectionPage",
+                        "@id": "https://zameeransari.com.pk/product-category/starter/#webpage",
+                        "url": "https://zameeransari.com.pk/product-category/starter/",
+                        "name": "Starter Archives &ndash; Zameer Ansari BBQ &amp; Grill",
+                        "isPartOf": {
+                            "@id": "https://zameeransari.com.pk/#website"
+                        },
+                        "breadcrumb": {
+                            "@id": "https://zameeransari.com.pk/product-category/starter/#breadcrumb"
+                        },
+                        "inLanguage": "en-US",
+                        "potentialAction": [
+                            {
+                                "@type": "ReadAction",
+                                "target": [
+                                    "https://zameeransari.com.pk/product-category/starter/"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://zameeransari.com.pk/product-category/starter/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home",
+                                "item": "https://zameeransari.com.pk/"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Starter"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories/74"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://zameeransari.com.pk/wp-json/wc/v3/products/categories"
+                }
+            ]
+        }
+    }
+]
