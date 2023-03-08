@@ -22,37 +22,45 @@ class CategoryData extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 110.h,
+      height: 90.h,
       width: 80.w,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(15.r),
-        color: Color(0xffCC0006),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.grey.withOpacity(0.5),
-            spreadRadius: 2,
-            blurRadius: 7,
-            offset: Offset(0, 3), // changes position of shadow
+        gradient:  LinearGradient(
+          colors: [
+            Color.fromARGB(255, 31, 30, 30),
+            Color.fromARGB(255, 54, 53, 53),
+          ]
           ),
-        ],
+      
       ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Container(
-            height: 60.h,
-            width: 60.w,
-            decoration: BoxDecoration(
-              color: color1,
-              image: DecorationImage(
-                image: AssetImage(imgAddress),
-                fit: BoxFit.fill,
-              ),
-              shape: BoxShape.circle,
-            ),
+          SizedBox(height: 5.h,),
+          CircleAvatar(
+            radius: 25.r,
+            backgroundColor: Colors.transparent,
+            backgroundImage:AssetImage(imgAddress),
+          ),
+          // Container(
+          //   height: 50.h,
+          //   width: 50.w,
+          //   decoration: BoxDecoration(
+          //     color: color1,
+          //     image: DecorationImage(
+          //       image: AssetImage(imgAddress),
+          //       fit: BoxFit.fill,
+          //     ),
+          //     shape: BoxShape.circle,
+          //   ),
+          // ),
+          SizedBox(height: 5.h,),
+          Padding(
+            padding:  EdgeInsets.symmetric(horizontal: 5.w),
+            child: Multi(color: Colors.white, subtitle: title, weight: FontWeight.bold, size: 10),
           ),
           SizedBox(height: 5.h,),
-          Multi(color: Colors.white, subtitle: title, weight: FontWeight.bold, size: 12)
         ],
       ),
     );

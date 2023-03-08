@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "58672523505",
+    "project_id": "zameer-915e2",
+    "storage_bucket": "zameer-915e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58672523505:android:8ade6306e0ee4d40a36150",
+        "android_client_info": {
+          "package_name": "com.example.zameer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58672523505-995gshmblg4igckeikshubevetd9v1qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGV9r0QQsjhtvC7WBL_RJazsOcOrNr4TI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58672523505-995gshmblg4igckeikshubevetd9v1qe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

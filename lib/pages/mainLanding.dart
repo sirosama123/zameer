@@ -1,10 +1,19 @@
+
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:line_icons/line_icons.dart';
+import 'package:provider/provider.dart';
+import 'package:zameer/pages/favorities.dart';
+import 'package:zameer/pages/history.dart';
 import 'package:zameer/pages/landingPage.dart';
+import 'package:zameer/pages/profile.dart';
+import 'package:zameer/pages/profile.dart';
+
+import '../provider/provider1.dart';
 
 
 class Example extends StatefulWidget {
+
   @override
   _ExampleState createState() => _ExampleState();
 }
@@ -15,18 +24,9 @@ class _ExampleState extends State<Example> {
       TextStyle(fontSize: 30, fontWeight: FontWeight.w600);
   static const List<Widget> _widgetOptions = <Widget>[
     LandingPage(),
-    Text(
-      'Likes',
-      style: optionStyle,
-    ),
-    Text(
-      'Search',
-      style: optionStyle,
-    ),
-    Text(
-      'Profile',
-      style: optionStyle,
-    ),
+   Favourities(),
+    History(),
+    Profile()
   ];
 
   @override
@@ -72,8 +72,8 @@ class _ExampleState extends State<Example> {
                   iconColor: Colors.white,
                 ),
                 GButton(
-                  icon: LineIcons.search,
-                  text: 'Search',
+                  icon: LineIcons.history,
+                  text: 'History',
                   iconColor: Colors.white,
                 ),
                 GButton(

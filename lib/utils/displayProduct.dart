@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:avatar_glow/avatar_glow.dart';
+import 'package:back_button_interceptor/back_button_interceptor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
@@ -39,6 +40,34 @@ int count = 1;
 
 class _DisplayProductState extends State<DisplayProduct> {
   @override
+   void initState() {
+    super.initState();
+    BackButtonInterceptor.add(myInterceptor);
+  }
+
+  @override
+  void dispose() {
+    BackButtonInterceptor.remove(myInterceptor);
+    super.dispose();
+  }
+
+  bool myInterceptor(bool stopDefaultButtonEvent, RouteInfo info) {
+   final Provider11 = Provider.of<Provider1>(context,listen: false);
+      Provider11.options.clear();
+      Provider11.prices1.clear();
+      setState(() {
+        selectedValue = null;
+        price1 = null;
+      });
+      if (Provider11.myDictionary?.isEmpty==false) {
+        Provider11.myDictionary={};
+        Navigator.of(context).pop();
+      }
+      else{
+       Navigator.of(context).pop();
+      }
+    return true;
+  }
   Widget build(BuildContext context) {
     final Provider11 = Provider.of<Provider1>(context);
     NumberFormat priceFormat = NumberFormat.currency(
@@ -51,6 +80,7 @@ class _DisplayProductState extends State<DisplayProduct> {
 
     addItem() async {
       Provider11.items_in_cart!.add(CartItems(
+        1,
         widget.imgAddress,
         widget.title,
         widget.title,
@@ -64,7 +94,16 @@ class _DisplayProductState extends State<DisplayProduct> {
         selectedValue = null;
         price1 = null;
       });
-      Navigator.of(context).pop();
+      Provider11.increamentCart();
+      if (Provider11.myDictionary?.isEmpty==false) {
+        Provider11.myDictionary={};
+        
+        Navigator.of(context).pop();
+      }
+      else{
+       Navigator.of(context).pop();
+      }
+      
     }
 
     return MaterialApp(
@@ -77,6 +116,7 @@ class _DisplayProductState extends State<DisplayProduct> {
             onTap: () async {
               Provider11.options.clear();
               Provider11.prices1.clear();
+              Provider11.myDictionary!.clear();
               setState(() {
                 selectedValue = null;
                 price1 = null;

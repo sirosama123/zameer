@@ -54,7 +54,8 @@ dependencies:
   cloud_firestore: ^4.4.2
   fancy_shimmer_image: ^2.0.2
   rotated_corner_decoration: ^2.0.0
-
+  back_button_interceptor: ^6.0.2
+  circular_menu: ^2.0.1
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
@@ -65,6 +66,13 @@ dependencies:
   flutter_neumorphic: ^3.2.0
   gradient_borders: ^1.0.0
   dropdown_button2: ^1.9.4
+  im_stepper: ^1.0.1+1
+  roundcheckbox: ^2.0.5
+  animated_item_picker: ^2.0.0
+  stepper_counter_swipe: ^1.0.2
+  woocommerce_api: ^0.1.0
+  sliding_switch: ^1.1.0
+  day_night_time_picker: ^1.2.0+1
 
 dev_dependencies:
   flutter_test:

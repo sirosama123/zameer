@@ -14,6 +14,9 @@ import 'package:material_dialogs/dialogs.dart';
 import 'package:material_dialogs/widgets/buttons/icon_button.dart';
 import 'package:material_dialogs/widgets/buttons/icon_outline_button.dart';
 import 'package:provider/provider.dart';
+import 'package:zameer/pages/guest/deleivery.dart';
+import 'package:zameer/pages/initial.dart';
+import 'package:zameer/pages/nonguest/change.dart';
 import 'package:zameer/provider/provider1.dart';
 import 'package:zameer/utils/multiText.dart';
 import 'package:glass/glass.dart';
@@ -21,6 +24,8 @@ import 'package:intl/intl.dart';
 
 import '../utils/cartItem.dart';
 import '../utils/multi2.dart';
+import '../utils/multi3.dart';
+import 'nonguest/deleivery.dart';
 
 class CartList extends StatefulWidget {
   CartList({
@@ -37,17 +42,19 @@ class _CartListState extends State<CartList> {
     final Provider11 = Provider.of<Provider1>(context);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        backgroundColor: Color(0xffCC0006),
+      home: Provider11.itemLength!=0?Scaffold(
+        
         appBar: AppBar(
+          
           actions: [
             ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                    primary: Colors.white,
-                    padding: EdgeInsets.symmetric(horizontal: 25, vertical: 5),
+                    primary: Color.fromARGB(255, 54, 53, 53),
+                    padding: EdgeInsets.symmetric(horizontal: 35.w, vertical: 5.h),
                     textStyle:
                         TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
-                onPressed: () {
+                onPressed: () async{
+                   await Provider11.sumOfPrice();
                   Dialogs.bottomMaterialDialog(
                       color: Colors.black,
                       context: context,
@@ -65,7 +72,7 @@ class _CartListState extends State<CartList> {
                                     size: 16),
                                 Multi(
                                     color: Colors.white,
-                                    subtitle: "Rs 1110",
+                                    subtitle: "${Provider11.priceSum}",
                                     weight: FontWeight.bold,
                                     size: 16),
                               ],
@@ -129,9 +136,19 @@ class _CartListState extends State<CartList> {
                                       textStyle: TextStyle(
                                           fontSize: 16,
                                           fontWeight: FontWeight.bold)),
-                                  onPressed: () {},
+                                  onPressed: () async {
+                                     Navigator.push(
+                                              context,
+                                              PageRouteBuilder(
+                                                  pageBuilder: (context,
+                                                          animation,
+                                                          secondaryAnimation) =>
+                                                           Provider11.name==null?Delievery():NPaymentEdit()
+                                                      )
+                                                      );
+                                  },
                                   child: Text(
-                                    "Place the Order",
+                                    "Proceed",
                                     style: TextStyle(
                                       color: Color(0xffCC0006),
                                     ),
@@ -142,11 +159,291 @@ class _CartListState extends State<CartList> {
                       ]);
                 },
                 child: Text(
-                  "Confirm",
-                  style: TextStyle(color: Color(0xffCC0006)),
-                ))
+                  "Confirm Order",
+                  style: TextStyle(color: Colors.white),
+                )
+                )
           ],
-          backgroundColor: Colors.transparent,
+          backgroundColor: Colors.black,
+          leading: GestureDetector(
+            onTap: () async {
+              Navigator.pop(context);
+            },
+            child: Container(
+                                  height: 30.h,
+                                  width: 30.w,
+                                  decoration: BoxDecoration(
+                                    gradient: LinearGradient(colors: [
+                                      Color.fromARGB(255, 31, 30, 30),
+                                      Color.fromARGB(255, 54, 53, 53),
+                                    ]),
+                                    borderRadius: BorderRadius.circular(5.r),
+                                    boxShadow: [
+                                      BoxShadow(
+                                        color: Color.fromARGB(255, 54, 53, 53),
+                                        offset: const Offset(0, 0),
+                                        blurRadius: 10.0,
+                                        spreadRadius: 2.0,
+                                      ), //BoxShadow
+                                      BoxShadow(
+                                        color: Colors.white,
+                                        offset: const Offset(0.0, 0.0),
+                                        blurRadius: 0.0,
+                                        spreadRadius: 0.0,
+                                      ), //BoxShadow
+                                    ],
+                                  ),
+                                  child: Center(
+                                    child: Icon(
+                                      Icons.arrow_back,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ),),
+          title: Text("Cart"),
+          
+        ),
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Color.fromARGB(255, 31, 30, 30),
+            Color.fromARGB(255, 54, 53, 53),
+              ]
+              )
+          ),
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 2.w),
+            child: ListView.builder(
+                itemCount: Provider11.items_in_cart!.length,
+                itemBuilder: (BuildContext ctx, index) {
+                  return Padding(
+                    padding: EdgeInsets.only(top: 7.h, bottom: 7.h),
+                    child: Column(
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(
+                              color: Colors.black.withOpacity(0.7),
+                              borderRadius: BorderRadius.circular(15.r)),
+                          width: double.infinity,
+                          height: 120.h,
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Expanded(
+                                    flex: 2,
+                                    child: Container(
+                                      height: 200.h,
+                                      width: 200.w,
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(20.r),
+                                        image: DecorationImage(
+                                          image: NetworkImage(Provider11
+                                              .items_in_cart![index].imgAddress),
+                                          fit: BoxFit.fill,
+                                        ),
+                                      ),
+                                    )),
+                                Expanded(
+                                    flex: 4,
+                                    child: Row(
+                                      children: [
+                                        Padding(
+                                          padding: EdgeInsets.symmetric(
+                                              vertical: 27.h, horizontal: 10.w),
+                                          child: Container(
+                                            width: 110.w,
+                                            child: Column(
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.spaceBetween,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.start,
+                                              children: [
+                                                Multi2(
+                                                    color: Colors.white,
+                                                    subtitle:
+                                                        "${Provider11.items_in_cart![index].title.length > 10 ? Provider11.items_in_cart![index].title.substring(0, 11) + "..." : Provider11.items_in_cart![index].title}",
+                                                    weight: FontWeight.bold,
+                                                    size: 12),
+                                                Multi(
+                                                    color: Colors.grey,
+                                                    subtitle:
+                                                        "${Provider11.items_in_cart![index].title.length > 10 ? Provider11.items_in_cart![index].title.substring(0, 11) + "..." : Provider11.items_in_cart![index].title}",
+                                                    weight: FontWeight.bold,
+                                                    size: 12),
+                                                Multi(
+                                                    color: Colors.white,
+                                                    subtitle:
+                                                        "Rs ${double.parse(Provider11.items_in_cart![index].eachCost.toString())}",
+                                                    weight: FontWeight.w900,
+                                                    size: 10),
+                                              ],
+                                            ),
+                                          ),
+                                        ),
+                                        Padding(
+                                          padding: EdgeInsets.symmetric(
+                                              vertical: 30.h),
+                                          child: Column(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.spaceBetween,
+                                            children: [
+                                              Multi(
+                                                  color: Colors.grey,
+                                                  subtitle:
+                                                      "Rs ${double.parse(Provider11.items_in_cart![index].cost.toString())}",
+                                                  weight: FontWeight.bold,
+                                                  size: 10),
+                                              Row(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment
+                                                        .spaceBetween,
+                                                children: [
+                                                  Container(
+                                                    height: 25.h,
+                                                    width: 25.w,
+                                                    decoration: BoxDecoration(
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              5.r),
+                                                      boxShadow: [
+                                                        BoxShadow(
+                                                          color:
+                                                              Color(0xffCC0006),
+                                                          spreadRadius: 0.3,
+                                                          blurRadius: 7,
+                                                          offset:
+                                                              const Offset(1, 1),
+                                                        ),
+                                                        const BoxShadow(
+                                                            color: Colors.white,
+                                                            offset:
+                                                                Offset(-1, -1),
+                                                            blurRadius: 7,
+                                                            spreadRadius: 0.3),
+                                                      ],
+                                                      gradient: RadialGradient(
+                                                        colors: [
+                                                          Color.fromARGB(
+                                                              255, 233, 48, 54),
+                                                          Color(0xffCC0006),
+                                                        ],
+                                                      ),
+                                                    ),
+                                                    child: GestureDetector(
+                                                      onTap: () {
+                                                        Provider11
+                                                            .CartCountIncreament(
+                                                                Provider11
+                                                                    .items_in_cart![
+                                                                        index]
+                                                                    .count,
+                                                                index);
+                                                      },
+                                                      child: Icon(
+                                                        Icons.add,
+                                                        color: Colors.white,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  SizedBox(
+                                                    width: 10,
+                                                  ),
+                                                  Multi(
+                                                      color: Colors.white,
+                                                      subtitle:
+                                                          "${Provider11.items_in_cart![index].count}",
+                                                      weight: FontWeight.w800,
+                                                      size: 16),
+                                                  SizedBox(
+                                                    width: 10,
+                                                  ),
+                                                  Container(
+                                                    height: 25.h,
+                                                    width: 25.w,
+                                                    decoration: BoxDecoration(
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              5.r),
+                                                      boxShadow: [
+                                                        BoxShadow(
+                                                          color:
+                                                              Color(0xffCC0006),
+                                                          spreadRadius: 0.3,
+                                                          blurRadius: 7,
+                                                          offset:
+                                                              const Offset(1, 1),
+                                                        ),
+                                                        const BoxShadow(
+                                                            color: Colors.white,
+                                                            offset:
+                                                                Offset(-1, -1),
+                                                            blurRadius: 7,
+                                                            spreadRadius: 0.3),
+                                                      ],
+                                                      gradient: RadialGradient(
+                                                        colors: [
+                                                          Color.fromARGB(
+                                                              255, 233, 48, 54),
+                                                          Color(0xffCC0006),
+                                                        ],
+                                                      ),
+                                                    ),
+                                                    child: GestureDetector(
+                                                      onTap: () {
+                                                       if (Provider11.items_in_cart![index].count!=1) {
+                                                          Provider11
+                                                            .CartCountDecreament(
+                                                                Provider11
+                                                                    .items_in_cart![
+                                                                        index]
+                                                                    .count,
+                                                                index);
+                                                       } else {
+                                                         Provider11.items_in_cart!.removeAt(index);
+                                                         Provider11.decreamentCart();
+                                                         Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+              builder: (BuildContext context) => super.widget));
+                                                          Provider11.items_in_cart!.length==0? Navigator.of(context):null;
+                                                       }
+                                                      },
+                                                      child: Icon(
+                                                        Provider11
+                                                                    .items_in_cart![
+                                                                        index]
+                                                                    .count ==
+                                                                1
+                                                            ? CupertinoIcons
+                                                                .delete
+                                                            : Icons.remove,
+                                                        color: Colors.white,
+                                                      ),
+                                                    ),
+                                                  )
+                                                ],
+                                              )
+                                            ],
+                                          ),
+                                        ),
+                                      ],
+                                    ))
+                              ],
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  );
+                }),
+          ),
+        ),
+      ):Scaffold(
+        appBar:AppBar(
+           backgroundColor: Colors.transparent,
           leading: GestureDetector(
             onTap: () async {
               Navigator.of(context).pop();
@@ -159,13 +456,9 @@ class _CartListState extends State<CartList> {
                 elevation: 8.0,
                 shadowColor: Colors.red,
                 shape: CircleBorder(),
-                child: CircleAvatar(
-                  backgroundColor: Colors.grey[100],
-                  child: Image.asset(
-                    'assets/arrow_back.png',
-                    height: 40,
-                  ),
-                  radius: 30.0,
+                child: Image.asset(
+                  'assets/arrow_back.png',
+                  height: 40,
                 ),
               ),
             ),
@@ -173,234 +466,23 @@ class _CartListState extends State<CartList> {
           title: Text("Cart"),
           centerTitle: true,
         ),
-        body: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 2.w),
-          child: ListView.builder(
-              itemCount: Provider11.items_in_cart!.length,
-              itemBuilder: (BuildContext ctx, index) {
-                return Padding(
-                  padding: EdgeInsets.only(top: 7.h, bottom: 7.h),
-                  child: Column(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                            color: Colors.black.withOpacity(0.7),
-                            borderRadius: BorderRadius.circular(15.r)),
-                        width: double.infinity,
-                        height: 150.h,
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Row(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Expanded(
-                                  flex: 2,
-                                  child: Container(
-                                    height: 200.h,
-                                    width: 200.w,
-                                    decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(20.r),
-                                      image: DecorationImage(
-                                        image: NetworkImage(Provider11
-                                            .items_in_cart![index].imgAddress),
-                                        fit: BoxFit.fill,
-                                      ),
-                                    ),
-                                  )),
-                              Expanded(
-                                  flex: 4,
-                                  child: Row(
-                                    children: [
-                                      Padding(
-                                        padding: EdgeInsets.symmetric(
-                                            vertical: 27.h, horizontal: 10.w),
-                                        child: Container(
-                                          width: 110.w,
-                                          child: Column(
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.spaceBetween,
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.start,
-                                            children: [
-                                              Multi2(
-                                                  color: Colors.white,
-                                                  subtitle:
-                                                      "${Provider11.items_in_cart![index].title.length > 10 ? Provider11.items_in_cart![index].title.substring(0, 11) + "..." : Provider11.items_in_cart![index].title}",
-                                                  weight: FontWeight.bold,
-                                                  size: 20),
-                                              Multi(
-                                                  color: Colors.grey,
-                                                  subtitle:
-                                                      "${Provider11.items_in_cart![index].title.length > 10 ? Provider11.items_in_cart![index].title.substring(0, 11) + "..." : Provider11.items_in_cart![index].title}",
-                                                  weight: FontWeight.bold,
-                                                  size: 12),
-                                              Multi(
-                                                  color: Colors.white,
-                                                  subtitle:
-                                                      "\$ ${double.parse(Provider11.items_in_cart![index].eachCost.toString())}",
-                                                  weight: FontWeight.w900,
-                                                  size: 18),
-                                            ],
-                                          ),
-                                        ),
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsets.symmetric(
-                                            vertical: 30.h),
-                                        child: Column(
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.spaceBetween,
-                                          children: [
-                                            Multi(
-                                                color: Colors.grey,
-                                                subtitle:
-                                                    "\$${double.parse(Provider11.items_in_cart![index].cost.toString())}",
-                                                weight: FontWeight.bold,
-                                                size: 16),
-                                            Row(
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment
-                                                      .spaceBetween,
-                                              children: [
-                                                Container(
-                                                  height: 30.h,
-                                                  width: 30.w,
-                                                  decoration: BoxDecoration(
-                                                    borderRadius:
-                                                        BorderRadius.circular(
-                                                            10.r),
-                                                    boxShadow: [
-                                                      BoxShadow(
-                                                        color:
-                                                            Color(0xffCC0006),
-                                                        spreadRadius: 0.3,
-                                                        blurRadius: 7,
-                                                        offset:
-                                                            const Offset(1, 1),
-                                                      ),
-                                                      const BoxShadow(
-                                                          color: Colors.white,
-                                                          offset:
-                                                              Offset(-1, -1),
-                                                          blurRadius: 7,
-                                                          spreadRadius: 0.3),
-                                                    ],
-                                                    gradient: RadialGradient(
-                                                      colors: [
-                                                        Color.fromARGB(
-                                                            255, 233, 48, 54),
-                                                        Color(0xffCC0006),
-                                                      ],
-                                                    ),
-                                                  ),
-                                                  child: GestureDetector(
-                                                    onTap: () {
-                                                      Provider11
-                                                          .CartCountIncreament(
-                                                              Provider11
-                                                                  .items_in_cart![
-                                                                      index]
-                                                                  .count,
-                                                              index);
-                                                    },
-                                                    child: Icon(
-                                                      Icons.add,
-                                                      color: Colors.white,
-                                                    ),
-                                                  ),
-                                                ),
-                                                SizedBox(
-                                                  width: 10,
-                                                ),
-                                                Multi(
-                                                    color: Colors.white,
-                                                    subtitle:
-                                                        "${Provider11.items_in_cart![index].count}",
-                                                    weight: FontWeight.w800,
-                                                    size: 16),
-                                                SizedBox(
-                                                  width: 10,
-                                                ),
-                                                Container(
-                                                  height: 30.h,
-                                                  width: 30.w,
-                                                  decoration: BoxDecoration(
-                                                    borderRadius:
-                                                        BorderRadius.circular(
-                                                            10.r),
-                                                    boxShadow: [
-                                                      BoxShadow(
-                                                        color:
-                                                            Color(0xffCC0006),
-                                                        spreadRadius: 0.3,
-                                                        blurRadius: 7,
-                                                        offset:
-                                                            const Offset(1, 1),
-                                                      ),
-                                                      const BoxShadow(
-                                                          color: Colors.white,
-                                                          offset:
-                                                              Offset(-1, -1),
-                                                          blurRadius: 7,
-                                                          spreadRadius: 0.3),
-                                                    ],
-                                                    gradient: RadialGradient(
-                                                      colors: [
-                                                        Color.fromARGB(
-                                                            255, 233, 48, 54),
-                                                        Color(0xffCC0006),
-                                                      ],
-                                                    ),
-                                                  ),
-                                                  child: GestureDetector(
-                                                    onTap: () {
-                                                     if (Provider11.items_in_cart![index].count!=1) {
-                                                        Provider11
-                                                          .CartCountDecreament(
-                                                              Provider11
-                                                                  .items_in_cart![
-                                                                      index]
-                                                                  .count,
-                                                              index);
-                                                     } else {
-                                                       Provider11.items_in_cart!.removeAt(index);
-                                                       Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(
-            builder: (BuildContext context) => super.widget));
-                                                        Provider11.items_in_cart!.length==0? Navigator.of(context):null;
-                                                     }
-                                                    },
-                                                    child: Icon(
-                                                      Provider11
-                                                                  .items_in_cart![
-                                                                      index]
-                                                                  .count ==
-                                                              1
-                                                          ? CupertinoIcons
-                                                              .delete
-                                                          : Icons.remove,
-                                                      color: Colors.white,
-                                                    ),
-                                                  ),
-                                                )
-                                              ],
-                                            )
-                                          ],
-                                        ),
-                                      ),
-                                    ],
-                                  ))
-                            ],
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              }),
+        backgroundColor: Color(0xffCC0006),
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              CircleAvatar(
+                radius:150.r,
+                backgroundColor: Colors.white,
+                child: Image.asset("assets/cart.png"),
+              ),
+              SizedBox(height: 20.h,),
+              Multi3(color: Colors.white, subtitle: "Your Cart is empty", weight: FontWeight.normal, size: 30)
+            ],
+          ),
         ),
-      ),
+        ) ,
+      
     );
   }
 }
